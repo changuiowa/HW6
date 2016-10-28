@@ -15,5 +15,7 @@
         <h1>Product List</h1>
         
         <a href = "read"> View the list of products</a>
+        <br><br>
+        <a href = "search.jsp"> Search a product</a>
     </body>
 </html>

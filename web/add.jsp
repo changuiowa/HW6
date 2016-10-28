@@ -18,7 +18,7 @@
         <form name ="addForm" action="addProduct" method="get">
 
             <table class = "add">
-                <tbody>            
+            <tbody>            
 
             <tr>        
             <td><lable>Product Name:</lable></td>

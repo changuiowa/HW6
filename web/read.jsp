@@ -18,6 +18,7 @@
         
         <br><br>
         <a href="add">Add a new product</a>
-    
+        <br><br>
+        <a href = "search.jsp"> Search a product</a>
     </body>
 </html>
