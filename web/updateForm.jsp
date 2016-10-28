@@ -23,7 +23,7 @@
 
             <tr>        
             <td><lable>Product ID:</lable></td>
-            <td><input type="text" name="name" value="<%= product.getProductID()%>"/></td>
+            <td><input type="text" name="id" value="<%= product.getProductID()%>" readonly/></td>
             <br>
             </tr>                        
 

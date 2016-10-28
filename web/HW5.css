@@ -9,6 +9,12 @@ table.list {
 	width: 700px;
 }
 
+input[readonly]{
+    background-color: gray;
+}
+
+
+
 table.list th {
 	color: #696969;
         background: #FFFF99;

@@ -73,11 +73,11 @@ public class ReadRecord {
                 
                 this.results.next();
                 
-                product.getProductID(this.results.getInt("productID"));
-                product.getProductName(this.results.getString("productName"));
-                product.getPrice(this.results.getDouble("price"));
-                product.getQuantity(this.results.getInt("quantity"));
-                product.getCompany(this.results.getString("company"));                
+                product.setProductID(this.results.getInt("productID"));
+                product.setProductName(this.results.getString("productName"));
+                product.setPrice(this.results.getDouble("price"));
+                product.setQuantity(this.results.getInt("quantity"));
+                product.setCompany(this.results.getString("company"));                
                 
             
         } catch (SQLException ex) {
