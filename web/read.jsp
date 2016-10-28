@@ -7,18 +7,40 @@
         <title>JSP Page</title>
         <link rel="stylesheet" href = "HW5.css">
     </head>
-    
-    <% String table = (String) request.getAttribute("table"); %>
+
+    <% String table = (String) request.getAttribute("table");%>
+
+
+
     <body>
-        <h1>Product List</h1>
-      
-            <%= table%>
-        
-        
-        
-        <br><br>
-        <a href="add">Add a new product</a>
-        <br><br>
-        <a href = "search.jsp"> Search a product</a>
+        <div class = "wrap">
+
+
+            <%@include file = "includes/header.jsp" %>
+
+            <%@include file = "includes/menu.jsp" %>
+
+
+
+
+            <div class = "main">        
+                <h1>Product List</h1>
+
+                <%= table%>
+
+
+
+                <br><br>
+                <a href="add">Add a new product</a>
+                <br><br>
+                <a href = "search.jsp"> Search a product</a>
+
+            </div>    
+
+
+            <%@include file = "includes/footer.jsp" %>
+
+
+        </div>
     </body>
 </html>

@@ -13,16 +13,35 @@
         <link rel="stylesheet" href = "HW5.css">
     </head>
     <body>
-        <h1>Search Product</h1>
 
-        <form name ="searchForm" action="search" method="get">
+        <div class = "wrap">
 
 
-            <input type="text" name="searchVal" value="" />        
+            <%@include file = "includes/header.jsp" %>
 
-            <br>
-            
-            <input type="submit" name="submit" value="Search" />        
-        </form>
+            <%@include file = "includes/menu.jsp" %>
+
+
+
+
+            <div class = "main">        
+                <h1>Search Product</h1>
+
+                <form name ="searchForm" action="search" method="get">
+
+
+                    <input type="text" name="searchVal" value="" />        
+
+                    <br>
+
+                    <input type="submit" name="submit" value="Search" />        
+                </form>
+            </div>    
+
+
+            <%@include file = "includes/footer.jsp" %>
+
+
+        </div>        
     </body>
 </html>
